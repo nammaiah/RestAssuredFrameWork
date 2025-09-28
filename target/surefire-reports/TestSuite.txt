@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 61.339 s <<< FAILURE! - in TestSuite
+updateUserTest(api.tests.UserTests)  Time elapsed: 1.524 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at api.tests.UserTests.updateUserTest(UserTests.java:87)
+
+deleteUserTest(api.tests.UserTests)  Time elapsed: 1.539 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at api.tests.UserTests.deleteUserTest(UserTests.java:101)
+
+getEmployeeTest(api.tests.EmployeeTests)  Time elapsed: 15.025 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at api.tests.EmployeeTests.getEmployeeTest(EmployeeTests.java:101)
+
+updateEmployeeTest(api.tests.EmployeeTests)  Time elapsed: 14.853 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at api.tests.EmployeeTests.updateEmployeeTest(EmployeeTests.java:136)
+
+deleteUserTest(api.tests.EmployeeTests)  Time elapsed: 14.647 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at api.tests.EmployeeTests.deleteUserTest(EmployeeTests.java:165)
+
+deleteObjectTest(api.tests.ObjectDDTests)  Time elapsed: 0.358 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at api.tests.ObjectDDTests.deleteObjectTest(ObjectDDTests.java:117)
+
+deleteObjectTest(api.tests.ObjectDDTests)  Time elapsed: 0.302 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at api.tests.ObjectDDTests.deleteObjectTest(ObjectDDTests.java:117)
+
+deleteObjectTest(api.tests.ObjectDDTests)  Time elapsed: 0.312 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at api.tests.ObjectDDTests.deleteObjectTest(ObjectDDTests.java:117)
+
+deleteObjectTest(api.tests.ObjectDDTests)  Time elapsed: 0.201 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at api.tests.ObjectDDTests.deleteObjectTest(ObjectDDTests.java:117)
+
