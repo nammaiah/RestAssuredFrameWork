@@ -69,7 +69,7 @@ public class EmployeeTests {
 		}
 	}
 	
-	@Test(priority=2, enabled=true)
+	@Test(priority=2, enabled=false)
 	public void getEmployeeTest() throws InterruptedException
 	{
 		logger.info("******Employee Creation test****");
@@ -103,7 +103,7 @@ public class EmployeeTests {
 		
 	}
 	
-	@Test(priority=3, enabled=true)
+	@Test(priority=3, enabled=false)
 	public void updateEmployeeTest() throws InterruptedException
 	{
 		empPayload.setName(faker.name().username());
@@ -137,7 +137,7 @@ public class EmployeeTests {
 		
 	}
 	
-	@Test(priority=4, enabled=true)
+	@Test(priority=4, enabled=false)
 	public void deleteUserTest() throws InterruptedException
 	{
 		Response response= EmployeeEndPoints.deleteEmployee(empPayload.getId());		

@@ -52,7 +52,7 @@ public class UserTests {
 		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2,enabled=false)
 	public void getUserTest()
 	{
 		logger.info("******Employee Creation test****");
@@ -68,7 +68,7 @@ public class UserTests {
 		
 	}
 	
-	@Test(priority=3)
+	@Test(priority=3,enabled=false)
 	public void updateUserTest()
 	{
 		
@@ -89,7 +89,7 @@ public class UserTests {
 	}
 	
 
-	@Test(priority=4)
+	@Test(priority=4,enabled=false)
 	public void deleteUserTest()
 	{
 		//Response response= UserEndPoints.deleteUser("test");

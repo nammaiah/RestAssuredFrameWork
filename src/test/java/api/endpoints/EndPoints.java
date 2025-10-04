@@ -28,6 +28,34 @@ public class EndPoints {
 	public static String OBJ_GET_ENDPOINT="/{id}";
 	public static String OBJ_GET_ALL_ENDPOINT="";	
 	
+	//JsonPlace holder API's (posts, comments...)	
+
+	public static String JSONPH_BASE_URL="https://jsonplaceholder.typicode.com";
+	public static String JP_GET_ENDPOINT="/posts/1";
+	public static String JP_GET_ALL_COMMENTS_ENDPOINT="/comments?postId=1";
+	public static String JP_POST_TODO_ENDPOINT="/todos";
+	
+	//ReqResponse API's
+	
+	public static String REQRES_BASE_URL="https://reqres.in";
+	public static String REQRES_GET_ALL_USERS_ENDPOINT1="/api/users?page=2";
+	public static String REQRES_POST_USER_ENDPOINT="/api/users";
+	/*
+	 * public static String JP_GET_ALL_COMMENTS_ENDPOINT="/comments?postId=1";
+	 * public static String JP_POST_TODO_ENDPOINT="/todos";
+	 */
+	
+	//Dogs
+	
+	public static String DOG_BASE_URL="https://dog.ceo/api/breeds/image/random";
+	public static String REQRES_GET_ALL_USERS_ENDPOINT="/api/users?page=2";
+	
+	
+	
+	
+	
+	
+	
 	
 	
 

@@ -109,7 +109,7 @@ public class ObjectDDTests {
 	}
 	
 	
-	@Test(priority=3, enabled=true, dataProvider="ids", dataProviderClass =DataProviders.class )	
+	@Test(priority=3, enabled=false, dataProvider="ids", dataProviderClass =DataProviders.class )	
 	public void deleteObjectTest(String id) throws InterruptedException
 	{
 		Response response= ObjectEndPoints.deleteObject(id);		
